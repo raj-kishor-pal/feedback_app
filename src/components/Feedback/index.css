@@ -1,0 +1,48 @@
+/* Write your CSS code here. */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffeeee;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 238, 238, 1) 0%,
+    rgba(255, 192, 187, 1) 50%
+  );
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  max-width: 45%;
+  min-height: 350px;
+  border: none;
+  border-radius: 7px;
+  padding: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  min-width: 90%;
+}
+
+.emoji-style {
+  width: 90px;
+  height: 90px;
+}
+
+.love-emoji-style {
+  width: 90px;
+  height: 90px;
+}
